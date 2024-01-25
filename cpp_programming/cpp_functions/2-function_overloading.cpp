@@ -31,7 +31,7 @@ cout<<"Enter your desired radius: ";
 cin>>r;
 int rec_perimeter= calculate_perimeter(l,w);
 float circle_perimeter = calculate_perimeter(r);
-cout<<" The perimeter of the rectangle is: "<<rec_perimeter;
+cout<<"The perimeter of the rectangle is: "<<rec_perimeter;
 cout<<" \nThe perimeter of the circle is: "<<circle_perimeter;
 return 0;
 }
